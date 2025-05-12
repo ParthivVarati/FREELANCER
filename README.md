@@ -17,7 +17,7 @@ Styling: Custom CSS animations, responsive layout, modern UI/UX
 # DEPLOYMENT
 For Frontend
 ```sh
-Step 1: Clone the repository using the project's Git URL.
+Step 1: Clone the repository using the project Git URL.
 git clone <YOUR_GIT_URL>
 
 Step 2: Navigate to the project directory.
