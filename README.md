@@ -4,7 +4,7 @@ FREELANCER is a fully responsive, visually appealing, and functionally rich web 
 This project aims to simulate a real-world freelance marketplace like Fiverr or Upwork but with a focus on clean UI/UX, modern development practices, and a scalable architecture using cutting-edge front-end tools.
 
 ![image](https://github.com/user-attachments/assets/c8241428-675a-4be4-a834-c8a68f1b0fa2)
-# What technologies are used for this project?
+# TECH STACK
 This project is built with .
 
 Frontend: Vite, React, TypeScript, Tailwind CSS, shadcn-ui
@@ -14,21 +14,31 @@ Backend: Python, Flask
 Database: MySQL (via XAMPP)
 
 Styling: Custom CSS animations, responsive layout, modern UI/UX
-# Page Flow Overview
-1. Home Page: Select between "Provider" or "Seeker" roles
+# DEPLOYMENT
+For FrontEnd
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Provider Panel:
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Login/Registration
+# Step 3: Install the necessary dependencies.
+npm i
 
-Search for seekers using skills, ratings, and more
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+For Backend 
+```sh
+# Step 1: create a virual environment in api
+python -m venv freelancer
+freelancer\Scripts\activate
 
-View client profiles with ratings and reviews
+# Step 2: Install Dependencies
+pip install -r requirements.txt
 
-3Seeker Panel:
+# Step 3: Run the application
+python app.py
 
-Login/Registration
-
-View personal profile and notifications
-
-Forms: Clean, user-friendly forms for both roles with proper validation and data saving
+```
